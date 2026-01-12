@@ -1,6 +1,4 @@
-#Filament
-
-📘 Documentation:
+📘 Documentation
 https://filamentphp.com/docs/4.x/getting-started
 
 📌 Project Overview
@@ -13,9 +11,9 @@ Many-to-many relationship between Posts and Tags
 
 Dependent dropdown module (Country → State → City) implemented in the User module
 
-Dashboard with:
+Dashboard featuring:
 
-State (stats) widgets
+Stats (state) widgets
 
 Chart widgets for data visualization
 
@@ -24,9 +22,10 @@ Step 1: Environment & Database Setup
 
 Configure your database credentials in the .env file
 
-Run migrations and seeders:
+Install dependencies and run migrations:
 
-php artisan migrate --seed
+-> composer install
+-> php artisan migrate --seed
 
 Step 2: Run the Application
 
@@ -36,29 +35,7 @@ php artisan serve
 
 Step 3: Login Credentials
 
-Use the following credentials to access the admin panel:
+Use the following credentials to access the Filament Admin Panel:
 
 Email:    test@test.com
 Password: Test@123
-
-🛠️ Tech Stack
-
-Laravel
-
-Filament PHP
-
-MySQL
-
-Livewire
-
-📊 Modules Included
-
-Posts Management
-
-Categories
-
-Tags
-
-Users (with Country → State → City dependent dropdown)
-
-Dashboard Widgets (Stats & Charts)
