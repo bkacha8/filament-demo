@@ -1,20 +1,64 @@
-# filament-demo
+#Filament
 
-doc : https://filamentphp.com/docs/4.x/getting-started
+📘 Documentation:
+https://filamentphp.com/docs/4.x/getting-started
 
-In this demo, I implemented Post CRUD operations with category-wise filtering and tag management via a many-to-many relationship. I also developed a dependent dropdown module (Country, State, and City) for the User module and built a dashboard featuring state widgets and chart widgets for visual insights.
+📌 Project Overview
 
-Step : 1
-db setup on .env and then migration run
-php artisan migarte --seed 
+This demo application is built using Filament PHP and demonstrates the following features:
 
+Post CRUD operations with category-wise filtering
 
-Step : 2
-Run by php artisan ser
+Many-to-many relationship between Posts and Tags
 
+Dependent dropdown module (Country → State → City) implemented in the User module
 
-Step : 3
-credentials:
--------------- 
-username: test@test.com
-password: Test@123
+Dashboard with:
+
+State (stats) widgets
+
+Chart widgets for data visualization
+
+⚙️ Installation & Setup
+Step 1: Environment & Database Setup
+
+Configure your database credentials in the .env file
+
+Run migrations and seeders:
+
+php artisan migrate --seed
+
+Step 2: Run the Application
+
+Start the local development server:
+
+php artisan serve
+
+Step 3: Login Credentials
+
+Use the following credentials to access the admin panel:
+
+Email:    test@test.com
+Password: Test@123
+
+🛠️ Tech Stack
+
+Laravel
+
+Filament PHP
+
+MySQL
+
+Livewire
+
+📊 Modules Included
+
+Posts Management
+
+Categories
+
+Tags
+
+Users (with Country → State → City dependent dropdown)
+
+Dashboard Widgets (Stats & Charts)
